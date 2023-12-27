@@ -1,0 +1,27 @@
+.div1 {
+    width: 280px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+}
+
+.div2 {
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    margin: 10px;
+}
+
+.div3 {
+    width: 300px;
+    height: 100px;
+    background-color: darkblue;
+    margin: 10px;
+}
+
+.filha {
+    width: 200px;
+    height: 90px;
+    background-color: yellow;
+}
