@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+.filha {
+    width: 75%;
+    height: 100%;
+    background-color: chocolate;
+}
