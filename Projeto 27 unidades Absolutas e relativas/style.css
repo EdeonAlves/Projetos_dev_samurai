@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.pai {
+    width: 10%;
+    height: 10%;
+    background-color: chocolate;
+}
