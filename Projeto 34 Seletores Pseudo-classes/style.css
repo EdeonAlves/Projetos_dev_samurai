@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+button {
+    width: 100px;
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+button:hover {
+    width: 100px;
+    color: black;
+    background-color: red;
+}
+
