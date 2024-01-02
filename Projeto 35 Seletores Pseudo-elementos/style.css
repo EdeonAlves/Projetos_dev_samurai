@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+button::after {
+    content:  "  Clique neste botão para ir a página de vendas.";
+    color: red;
+}
+
+p {
+    color: white;
+    background-color: blue;
+}
+
+p::before {
+content: "   Observe essa mensagem em amarelo também";
+background-color: yellow;
+color: black;
+}
