@@ -1,2 +1,15 @@
 @charset "UTF-8";
 
+a {
+    color: blue;
+}
+
+a[href$=".org"] {
+    background-color: red;
+}
+
+img[alt="Teste"] {
+    width:100px; 
+    height:100px; 
+    background-color: yellow;
+}
