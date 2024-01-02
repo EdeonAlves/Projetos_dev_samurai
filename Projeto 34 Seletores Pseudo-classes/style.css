@@ -7,9 +7,59 @@ button {
     background-color: black;
 }
 
-button:hover {
-    width: 100px;
+button:disabled {
     color: black;
-    background-color: red;
+    background-color: rgb(243, 208, 12);
 }
 
+a:link {
+    color: black
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: maroon;
+}
+
+span:first-child {
+    color: red;
+}
+
+li {
+    color: salmon;
+}
+
+li:first-child {
+    color: springgreen;
+}
+
+li:last-child {
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+table thead th {
+    text-align: center;
+}
+
+table tbody tr td {
+    text-align: center;
+}
+
+.table-zebra {
+    background-color: tan;
+}
+
+tr:nth-child(2n) {
+    background-color: tan;
+}
