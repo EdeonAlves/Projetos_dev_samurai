@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("./img/images.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.circle {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
