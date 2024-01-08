@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fonte-1";
+    src: url("./fonts/GrenzeGotisch-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fonte-2";
+    src: url("./fonts/GrenzeGotisch-Bold.ttf");
+}
+
+h1 {
+    font-family: "fonte-2";
+    font-style: italic;
+    font-size: 100px;
+}
