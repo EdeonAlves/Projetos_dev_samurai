@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+}
