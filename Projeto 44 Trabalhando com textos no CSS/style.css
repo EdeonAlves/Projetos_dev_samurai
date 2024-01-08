@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p {
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
