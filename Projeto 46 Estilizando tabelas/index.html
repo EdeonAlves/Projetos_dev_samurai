@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tabela</title>
+    <!-- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- -->
+    <link rel="stylesheet" href="./assets/css/padrao.css">
+
+   
+</head>
+<body>
+    <!-- Filtro -->
+    <div class="container">
+        <form action="#">
+            <div class="w-100">
+                <div class="col-6-l">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" name="nome">
+                </div>
+                <div class="col-6-r">
+                    <label for="sobrenome">Sobrenome:</label> <br>
+                    <input type="text" name="sobrenome">
+                </div>
+            </div>
+
+            <div class="w-100">
+                <div class="col-6-l">
+                    <label for="idade">Idade:</label> <br>
+                    <input type="text" name="idade">
+                </div>
+                <div class="col-6-r">
+                    <label for="profissao"></label>Profissão:</label> <br>
+                    <input type="text" name="profissao">
+                </div>
+            </div>
+
+            <div class="w-100">
+                <button type="button" class="btn-pesquisa">Pesquisar</button> 
+            </div>
+        </form>
+    </div>
+    <!-- Fim Filtro -->
+
+    <!-- Tabela -->
+    <div class="container-table">
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fulano 1</td>
+                    <td>Gonçalves 1</td>
+                    <td>21</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Fulano 2</td>
+                    <td>Gonçalves 2</td>
+                    <td>22</td>
+                    <td>Mecanico</td>
+                </tr>
+                <tr>
+                    <td>Fulano 3</td>
+                    <td>Gonçalves 2</td>
+                    <td>23</td>
+                    <td>Barman</td>
+                </tr>
+                <tr>
+                    <td>Fulano 4</td>
+                    <td>Gonçalves 4</td>
+                    <td>24</td>
+                    <td>Garçon</td>
+                </tr>
+                <tr>
+                    <td>Fulano 5</td>
+                    <td>Gonçalves 5</td>
+                    <td>25</td>
+                    <td>Motorista</td>
+                </tr>
+                <tr>
+                    <td>Fulano 6</td>
+                    <td>Gonçalves 6</td>
+                    <td>26</td>
+                    <td>Rosqueador</td>
+                </tr>
+                <tr>
+                    <td>Fulano 7</td>
+                    <td>Gonçalves 7</td>
+                    <td>27</td>
+                    <td>Dentista</td>
+                </tr>
+                <tr>
+                    <td>Fulano 8</td>
+                    <td>Gonçalves 8</td>
+                    <td>28</td>
+                    <td>Analista</td>
+                </tr>
+                <tr>
+                    <td>Fulano 9</td>
+                    <td>Gonçalves 9</td>
+                    <td>29</td>
+                    <td>Assistente</td>
+                </tr>
+                <tr>
+                    <td>Fulano 10</td>
+                    <td>Gonçalves 10</td>
+                    <td>30</td>
+                    <td>Auxiliar</td>
+                </tr>
+                <tr>
+                    <td>Fulano 11</td>
+                    <td>Gonçalves 11</td>
+                    <td>31</td>
+                    <td>Estagiario</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="sb"></td>
+                    <td class="sb"></td>
+                    <td class="sb"> Registros: </td>
+                    <td class="sb">11</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!-- Fim Tabela -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+/* Importa todos os demais arquivos CSS*/
+
+/*Importe das fontes*/
+@import "./fonts.css";
+
+/*CSS dos filtros*/
+@import "./filtro.css";
+
+/*CSS das Tabela*/
+@import "./tabela.css";

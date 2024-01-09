@@ -1,0 +1,21 @@
+
+/* Fonte Regular*/
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+
+/* Fonte Medium*/
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+/* Fonte Bold*/
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
