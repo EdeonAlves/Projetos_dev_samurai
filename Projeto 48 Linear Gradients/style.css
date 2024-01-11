@@ -1,0 +1,11 @@
+.container {
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+.btn-gradiente {
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to top, blue, orange);
+}
